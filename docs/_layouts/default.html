@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <div class="page">
+    <nav>
+      <a href="/">[Home]</a>
+      <a href="/about/">[About]</a>
+    </nav>
+    {% if page.banner %}
+    <div class="img_series">
+      <img class="fullwidth" src="{{ page.banner }}">
+    </div>      
+    {% endif %}
+    <div></div>
+      <h1>{{ page.title }}</h1>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        &copy; 2023 Jessica Stringham
+      </footer>
+    </div>
+  </body>
+</html>
