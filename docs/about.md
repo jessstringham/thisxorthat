@@ -7,8 +7,6 @@ permalink: /about/
 You can find me on [mastodon](https://tech.lgbt/@this_xor_that), [instagram](https://www.instagram.com/_thisxorthat/),
 and [github](http://github.com/jessstringham), and email at "jessica (at) thisxorthat.art".
 
-Here's a short resume.
-
 ## Work
 
  * **Spotify**, Senior Machine Learning Engineer, 2018-
@@ -18,6 +16,8 @@ Here's a short resume.
 
  * University of Edinburgh, MSc in Artificial Intelligence (Machine Learning), 2018
  * Harvey Mudd College, BSc in Computer Science, 2013
+
+I've also participated in [ITP Camp](https://tisch.nyu.edu/itp/camp) and [SFPC](https://sfpc.study/).
 
 ## Talks and things outside of work
 

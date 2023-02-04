@@ -11,7 +11,9 @@ cover: /assets/imgs/cream_cheese/img1-cover.png
 ---
 # this.xor.that
 
-I'm **this.xor.that** and I'm a creative technologist based in Brooklyn. This shares art I've created by writing code.
+I'm **this.xor.that** and I'm a creative technologist based in Brooklyn. This site shares the art I've created using code.
+
+<small>I'm also Jessica Stringham and a machine learning engineer, but that's mostly over <a href="https://jessicastringham.net">here</a></small>.
 
 I'm interested in using live elements and odd interfaces (midi controllers, livecoding, heart rate monitors), harvesting programming bugs to inspire other art, and using human-sized data with machine learning techniques.
 
