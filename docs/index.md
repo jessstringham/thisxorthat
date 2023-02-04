@@ -11,9 +11,9 @@ cover: /assets/imgs/cream_cheese/img1-cover.png
 ---
 # this.xor.that
 
-I'm **this.xor.that** and I'm a creative coder based in Brooklyn.
+I'm **this.xor.that** and I'm a creative technologist based in Brooklyn. This shares art I've created by writing code.
 
-I'm interested in using live elements and odd interfaces (midi controllers, livecoding, heart rate monitors), harvesting programming bugs to create new projects, and using human-sized machine learning.
+I'm interested in using live elements and odd interfaces (midi controllers, livecoding, heart rate monitors), harvesting programming bugs to inspire other art, and using human-sized data with machine learning techniques.
 
 My current projects are created using software I write in Rust using [nannou](https://nannou.cc) and [wgpu](https://wgpu.rs).
 
