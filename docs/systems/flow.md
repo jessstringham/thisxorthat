@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 tags: Rust, algorithms
 date: October 2022
 title: flow

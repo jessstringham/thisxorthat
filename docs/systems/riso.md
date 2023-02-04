@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 tags: Rust, small-data ML
 date: January 2023
 title: riso

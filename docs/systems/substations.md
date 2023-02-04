@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 tags: Rust, algorithms
 date: October 2022
 title: substations
@@ -7,17 +7,17 @@ subtitle: funny physics and recursive grids
 cover: /assets/imgs/substations/banner.png
 ---
 
+**substations** started as wanting to replicate one of my doodle patterns.
+
 <div class="img_series">
 <img class="fullwidth" src="/assets/imgs/substations/banner2.png">
 </div>
 
-**Substations** started as wanting to replicate one of my doodle patterns.
+The system starts with a grid and then uses random noise to nudge the intersections. I use physics based on force-directed graphs to keep the quadrilaterals from becoming too narrow or collapsing.
 
 <div class="img_series">
 <img class="fullwidth" src="/assets/imgs/substations/banner.png">
 </div>
-
-The system starts with a grid and then uses random noise to nudge the intersections. I use physics based on force-directed graphs to keep the quadrilaterals from becoming too narrow or collapsing.
 
 Meanwhile, it recursively splits the quadrilaterals according to a probability distribution. Different distributions create different patterns.
 

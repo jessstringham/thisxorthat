@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 tags: Rust, small-data ML
 date: December 2022
 title: cream cheese
