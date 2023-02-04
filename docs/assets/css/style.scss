@@ -12,7 +12,7 @@ body {
 .page {
   width: 720px;
   text-align: justify;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 @media only screen and (max-width:700px)  {
@@ -47,8 +47,24 @@ footer {
 }
 
 nav {
-  float: right;
+  margin-bottom: 50px;
 }
+
+nav a {
+  text-decoration: none;
+  padding: 2px;
+  color: #666;
+}
+nav a:visited {
+  color: inherit;
+  text-decoration: inherit;
+  color: #666;
+}
+nav a:hover {
+  background-color: #333;
+  color: #FFF;
+}
+
 
 .cover-title {
   position: relative;
@@ -90,5 +106,6 @@ nav {
 
 .sitename {
   color: #999;
-  font-size: 20px;
+  font-size: 12px;
 }
+

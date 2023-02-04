@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
@@ -16,8 +16,8 @@ Here's a short resume.
 
 ## Education
 
- * University of Edinburgh, MSc in Artificial Intelligence (Machine Learning), with distinction 2018
- * Harvey Mudd College, BSc in Computer Science, with distinction 2013
+ * University of Edinburgh, MSc in Artificial Intelligence (Machine Learning), 2018
+ * Harvey Mudd College, BSc in Computer Science, 2013
 
 ## Talks and things outside of work
 

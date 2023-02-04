@@ -16,7 +16,7 @@ I'm interested in using live elements and odd interfaces (midi controllers, live
 
 My current projects are created using software I write in Rust using [nannou](https://nannou.cc) and [wgpu](https://wgpu.rs).
 
-## Systems
+## systems
 
 This section roughly organizes some work by the systems used to create them.
 

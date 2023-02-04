@@ -1,7 +1,8 @@
 title: this xor that – creative coding and generative art
 description: >- 
   Creative coding and generative art by this xor that, aka Jessica Stringham.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thisxorthat.art" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://thisxorthat.art"
 
 github_username:  jessstringham
+permalink: pretty
