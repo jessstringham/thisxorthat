@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="this.xor.that: {{ page.title }}">
+<meta name="description" content="{{ site.description }}">
+{% if page.cover %}
+<meta property="og:image" content="{{ page.cover }}">
+{% endif %}
 <title>{{ page.title }}</title>
 <link rel="stylesheet" href="/assets/css/style.css">
 </head>

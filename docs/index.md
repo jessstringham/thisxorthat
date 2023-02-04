@@ -7,6 +7,7 @@ systems:
  - substations.md
  - leave.md
  - flow.md
+cover: /assets/imgs/cream_cheese/img1-cover.png
 ---
 # this.xor.that
 
