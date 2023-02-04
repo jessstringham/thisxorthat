@@ -15,7 +15,7 @@ body {
   margin: 50px auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width:700px)  {
   .page {
     width: 100%;
   }
@@ -52,33 +52,34 @@ nav {
 
 .cover-title {
   position: relative;
+  margin-top: 16px;
 }
 
 .cover-title img {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
-.cover-title p {
+.cover-title .title {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 8px;
   color: white;
-  position: absolute;
   text-align: center;
-  bottom: 50px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+.cover-title a {
+  text-decoration: none;
+}
+
+.cover-title:hover .title {
+  background-color: rgba(0, 0, 0, 1.0);
 }
 
 .cover-title:hover img {
-  opacity: 0.5;
-}
-
-.cover-title:hover p {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-  font-weight: bold;
+  opacity: 0.8;
 }
 
 .subtitle {

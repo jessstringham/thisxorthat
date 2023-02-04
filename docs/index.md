@@ -27,10 +27,10 @@ But I wanted to start collecting information about some of the ones I keep comin
     {% if page.name == system %}
 <div class="cover-title">
 <a href="{{ page.url }}">
-<img class="fullwidth" src="{{ page.cover }}">
-<p>{{ page.title }}
+<div class="title">{{ page.title }}
 <span class="subtitle">{{ page.subtitle }}</span>
-</p>
+</div>
+<img src="{{ page.cover }}">
 </a>
 </div>
     {% endif %}

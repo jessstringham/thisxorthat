@@ -1,4 +1,5 @@
 ---
+layout: default
 tags: Rust, algorithms
 date: October 2022
 title: substations
