@@ -16,9 +16,9 @@ cover: /assets/imgs/substations/banner.png
 <img class="fullwidth" src="/assets/imgs/substations/banner.png">
 </div>
 
-The system starts with a grid and then uses random noise to nudge the intersections. I use physics based on force-directed graphs to keep the quadralaterals from becoming too narrow or collapsing.
+The system starts with a grid and then uses random noise to nudge the intersections. I use physics based on force-directed graphs to keep the quadrilaterals from becoming too narrow or collapsing.
 
-Meanwhile, it recursively splits the quadralaterals according to a probability distribution. Different distributions create different patterns.
+Meanwhile, it recursively splits the quadrilaterals according to a probability distribution. Different distributions create different patterns.
 
 <div class="img_series">
 <a href="/assets/imgs/substations/world1.png"><img class="img_series_img" src="/assets/imgs/substations/tiny_world1.png"></a>
