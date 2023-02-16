@@ -3,7 +3,7 @@ layout: page
 tags: Rust, algorithms
 date: October 2022
 title: leave
-subtitle: leaf pattern simulation
+subtitle: growing leaf pattern
 cover: /assets/imgs/leave/img1-cover.png
 ---
 

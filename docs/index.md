@@ -3,6 +3,7 @@ layout: home
 title: this.xor.that
 systems:
  - cream-cheese.md
+ - oscilloscope.md
  - riso.md
  - substations.md
  - leave.md
