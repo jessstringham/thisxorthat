@@ -19,11 +19,7 @@ It started with wanting to draw a jaunty helix.
 
 It is explorable with livecoding and midi and params can be configured to follow a beat.
 
-<div class="img_series">
-<a href="/assets/imgs/oscilloscope/img3.png"><img class="img_series_img" src="/assets/imgs/oscilloscope/tiny_img3.png"></a>
-<a href="/assets/imgs/oscilloscope/img4.png"><img class="img_series_img" src="/assets/imgs/oscilloscope/tiny_img4.png"></a>
-<a href="/assets/imgs/oscilloscope/img5.png"><img class="img_series_img" src="/assets/imgs/oscilloscope/tiny_img5.png"></a>
-</div>
+<img class="img_series_img" src="/assets/imgs/oscilloscope/img7.png">
 
 And while on the topic of sines, inspired by <a href="https://www.youtube.com/watch?v=r6sGWTCMz2k">this video</a> and oscilloscope art, it can also draw images with the help of Fourier transforms. 
 

@@ -2,6 +2,7 @@
 layout: home
 title: this.xor.that
 systems:
+ - dither.md
  - cream-cheese.md
  - oscilloscope.md
  - riso.md

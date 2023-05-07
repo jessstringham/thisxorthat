@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: Rust, small-data ML
+tags: Rust
 date: January 2023
 title: riso
 subtitle: layered noise inspired by riso printing
