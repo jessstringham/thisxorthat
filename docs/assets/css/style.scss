@@ -6,7 +6,7 @@
 
 body {
   font-family: monospace;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .page {
@@ -101,6 +101,7 @@ nav a:hover {
 .subtitle {
   font-size: 12px;
   display: block;
+  color: #CCCCCC;
 }
 
 
@@ -113,3 +114,46 @@ nav a:hover {
 small {
   color: #666;
 }
+
+
+#events {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.event {
+}
+
+.event-title {
+  position: relative;
+}
+
+.event-title img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.event-title .title {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+.event-title a {
+  text-decoration: none;
+}
+
+.event-title:hover .title {
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+.event-title:hover img {
+  opacity: 0.8;
+}
+
+

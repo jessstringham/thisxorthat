@@ -1,7 +1,20 @@
 ---
 layout: home
 title: this.xor.that
+events:
+ - 20230902_livecode_dslgjksdlg.md
+ - 20230705_dailys_7weeks.md
+ - 20230627_livecode_itpcampshowcase.md
+ - 20230617_livecode_queercoded.md
+ - 20230504_livecode_harvestworks.md
+ - 20230331_livecode_itpandfriends.md
+ - 20230101_dailys_genuary.md
+ - 20220705_dailys_7weeks.md
 systems:
+ - unitcell.md
+ - livecode.md
+ - kernels.md
+ - ash.md
  - dither.md
  - cream-cheese.md
  - oscilloscope.md
@@ -11,15 +24,40 @@ systems:
  - flow.md
 cover: /assets/imgs/cream_cheese/img1-cover.png
 ---
+
 # this.xor.that
 
-I'm **this.xor.that** and I'm a creative technologist based in Brooklyn. This site shares the art I've created using code.
+I'm **this.xor.that** and I'm a creative coder based in Brooklyn. This site shares the art I've created using code.
 
 <small>I'm also Jessica Stringham and a machine learning engineer, but that's mostly over <a href="https://jessicastringham.net">here</a></small>.
 
 I'm interested in using live elements and odd interfaces (midi controllers, livecoding, heart rate monitors), harvesting programming bugs to inspire other art, and using human-sized data with machine learning techniques.
 
 My current projects are created using software I write in Rust using [nannou](https://nannou.cc) and [wgpu](https://wgpu.rs).
+
+
+## things
+
+events and projects
+
+<div id="events">
+{% for event in page.events %}
+  {% for page in site.pages %}
+    {% if page.name == event %}
+<div class="event">
+<div class="event-title">
+<a href="{{ page.url }}">
+<div class="title">{{ page.title }}
+<span class="subtitle">{{ page.date }}{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</span>
+</div>
+<img src="{{ page.cover }}">
+</a>
+</div>
+</div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
 
 ## systems
 
