@@ -47,10 +47,10 @@ events and projects
 <div class="event">
 <div class="event-title">
 <a href="{{ page.url }}">
+<img src="{{ page.cover }}">
 <div class="title">{{ page.title }}
 <span class="subtitle">{{ page.date }}{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</span>
 </div>
-<img src="{{ page.cover }}">
 </a>
 </div>
 </div>

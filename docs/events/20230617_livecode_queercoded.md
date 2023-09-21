@@ -3,7 +3,7 @@ layout: event
 tags: Rust, livecode
 title: livecode.nyc – Queercoded
 date: 2023-06-17
-location: Wonderville, Brooklyn
+location: Wonderville
 cover: /assets/imgs/20230617_livecode_queercoded/cover.png
 ---
 

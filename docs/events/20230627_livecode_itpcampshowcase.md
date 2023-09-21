@@ -3,7 +3,7 @@ layout: event
 tags: Rust
 title: ITP Camp Performance Showcase
 date: 2023-06-27
-location: ITP-NYU, Brooklyn
+location: ITP-NYU
 cover: /assets/imgs/20230627_livecode_itpcampshowcase/cover.png
 ---
 

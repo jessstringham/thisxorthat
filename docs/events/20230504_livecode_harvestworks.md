@@ -3,7 +3,7 @@ layout: event
 tags: Rust, livecode
 title: livecode.nyc – Regen Circuit
 date: 2023-05-04
-location: HarvestWorks, Governors Island
+location: HarvestWorks
 cover: /assets/imgs/20230504_livecode_harvestworks/cover.png
 ---
 

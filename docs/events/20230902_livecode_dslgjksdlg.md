@@ -4,7 +4,7 @@ tags: Rust
 date: September 2023
 title: livecode.nyc – dslgjksdlg
 date: 2023-09-02
-location: Wonderville, Brooklyn
+location: Wonderville
 cover: /assets/imgs/20230902_livecode_dslgjksdlg/cover.png
 ---
 

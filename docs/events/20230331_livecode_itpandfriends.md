@@ -3,7 +3,7 @@ layout: event
 tags: Rust, livecode
 title: ITP and Friends
 date: 2023-03-31
-location: Wonderville, Brooklyn
+location: Wonderville
 cover: /assets/imgs/20230331_livecode_itpandfriends/cover.png
 ---
 
