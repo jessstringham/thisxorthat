@@ -2,6 +2,7 @@
 layout: home
 title: this.xor.that
 events:
+ - 20231022_noisy_pixels_zine.md
  - 20230902_livecode_dslgjksdlg.md
  - 20230705_dailys_7weeks.md
  - 20230627_livecode_itpcampshowcase.md
