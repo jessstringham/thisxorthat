@@ -128,9 +128,21 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
+  align-items: center;
+}
+
+
+
+@media only screen and (max-width:720px)  {
+  #portfolio {
+    width: 360px;
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+  }
 }
 
 .portfolio {
+  width: 360px;
   display: block;
   background-color: #000;
 }
