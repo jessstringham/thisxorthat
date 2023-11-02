@@ -13,7 +13,7 @@ I made a few contributions to Regen Circuit, a month-long residency of [livecode
 
 I recorded a performance using the [Oscilloscope](/systems/oscilloscope) system and used [Tidal Cycles](http://tidalcycles.org) to create audio. You can watch the video and see a longer description [here](https://youtu.be/2Mjp14VCK2o).
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/2Mjp14VCK2o?si=k0kcLRwxAH-fxUj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/2Mjp14VCK2o?si=k0kcLRwxAH-fxUj4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Performance
 

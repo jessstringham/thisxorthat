@@ -3,6 +3,7 @@
 
 @charset "UTF-8";
 
+@import "code.css";
 
 body {
   font-family: monospace;
@@ -40,7 +41,19 @@ footer {
 .medimage {
   width: 50%;
   border: 1px solid #000;
+}
 
+.floatmedimage {
+  width: 50%;
+  border: 1px solid #000;
+  float: right;
+  margin: 24px;
+}
+
+.floatmedimage-no-border {
+  width: 50%;
+  float: right;
+  margin: 24px;
 }
 
 .fullwidth {
@@ -83,6 +96,10 @@ nav a:hover {
   object-fit: cover;
 }
 
+.portfolio-entry {
+  width: 480px;
+}
+
 .cover-title .title {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
@@ -90,6 +107,39 @@ nav a:hover {
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 20px;
+}
+
+.cover-title .portfolio-title {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+.cover-title:hover .portfolio-title {
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+
+#portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.portfolio {
+  display: block;
+  background-color: #000;
+}
+
+.portfolio-subtitle {
+  padding-top: 4px;
+  font-size: 10px;
+  display: block;
+  color: #CCCCCC;
 }
 
 .cover-title a {

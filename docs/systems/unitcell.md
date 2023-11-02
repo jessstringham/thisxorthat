@@ -10,7 +10,7 @@ cover: /assets/imgs/unitcell/cover.png
 **unitcell** is the way I configure instances of objects to create patterns.
 I'm borrowing the term unitcell from crystallography, where a crystal consists of repeating unitcells in a lattice.
 
-<img src="/assets/imgs/unitcell/img3.gif">
+<img class="floatmedimage" src="/assets/imgs/unitcell/img3.gif">
 
 The way I have it set up breaks down repeating patterns into two parts: the *sequencer* and the *unitcells*.
 
