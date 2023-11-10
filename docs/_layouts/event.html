@@ -2,7 +2,7 @@
 layout: default
 ---
 <div><h1>{{ page.title }}</h1></div>
-<div>{{ page.date }}{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</div>
+<div class="event-details">{{ page.date }}{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</div>
 
 <img class="fullwidth" src="{{ page.cover }}">
 

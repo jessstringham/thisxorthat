@@ -10,20 +10,19 @@ cover: /assets/imgs/unitcell/cover.png
 **unitcell** is the way I configure instances of objects to create patterns.
 I'm borrowing the term unitcell from crystallography, where a crystal consists of repeating unitcells in a lattice.
 
-<img class="floatmedimage" src="/assets/imgs/unitcell/img3.gif">
+<img class="floatmedimage" src="/assets/imgs/unitcell/img1.gif">
 
 The way I have it set up breaks down repeating patterns into two parts: the *sequencer* and the *unitcells*.
 
-The *sequencer* configures how many unitcells will be drawn, along with how they are scaled and positioned: for example a 3d lattice, a grid, a hexagonal grid, or a spiral are all things I've used.
+The *sequencer* configures how many unitcells will be drawn, along with how they are scaled and positioned: for example a 3d lattice, a grid, a hexagonal grid, or a spiral are all things I've used. 
 
 The *unitcell* is responsible for what is drawn, and only needs to worry about its own contents. It has access to its indices in the *sequencer* or introduce randomness when drawing the cell.
 
 Here are a few things I've made with unitcells.
 
-<img class="fullwidth" src="/assets/imgs/unitcell/cover.png">
+<img class="fullwidth" src="/assets/imgs/unitcell/img4.png">
 
-This one is similar to the animation above, but is cut out of paper using a vinyl cutter.
-
+The above pattern was cut out of paper using a vinyl cutter.
 
 <img class="fullwidth" src="/assets/imgs/unitcell/img2.png">
 
