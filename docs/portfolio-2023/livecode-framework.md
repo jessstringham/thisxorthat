@@ -32,8 +32,8 @@ The basics of the framework are as follows: I create a structure in Rust to para
 
 
 
-Additional Works:
- - Accepted at Algorithmic Pattern Salon 2023
+Publications:
+ - [Algorithmic Pattern Salon 2023](https://alpaca.pubpub.org/pub/dpdnf8lw/release/1?readingCollection=1def0192) and [talk](https://www.youtube.com/watch?v=kk-nElNKkJI&list=PLxqmZjMvoVzzhyTQab_DCEqDIthsAiDzF&index=6&t=6579s)
 
 The following links to write-ups on my regular art website; press the back button to return to the portfolio. 
 
