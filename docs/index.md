@@ -2,6 +2,8 @@
 layout: home
 title: this.xor.that
 events:
+ - 20231208_electric_abyss.md
+ - 20231201_alpaca.md
  - 20231022_noisy_pixels_zine.md
  - 20230902_livecode_dslgjksdlg.md
  - 20230705_dailys_7weeks.md
@@ -12,6 +14,7 @@ events:
  - 20230101_dailys_genuary.md
  - 20220705_dailys_7weeks.md
 systems:
+#  - ceramic.md
  - unitcell.md
  - livecode.md
  - kernels.md

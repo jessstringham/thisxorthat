@@ -3,6 +3,8 @@ layout: page
 title: events
 permalink: /events/
 events:
+ - 20231208_electric_abyss.md
+ - 20231201_alpaca.md
  - 20230902_livecode_dslgjksdlg.md
  - 20230705_dailys_7weeks.md
  - 20230627_livecode_itpcampshowcase.md

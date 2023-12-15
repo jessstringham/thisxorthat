@@ -31,3 +31,8 @@ entries:
   {% endfor %}
 {% endfor %}
 </div>
+
+<br />
+
+<small>This page is a somewhat more organized summary of my work. For a broader collection of documentation, see <a href="https://thisxorthat.art">my art website</a>.</small>
+<small>I'm also on <a href="http://instagram.com/_thisxorthat">instagram</a> and <a href="https://tech.lgbt/@this_xor_that">mastodon</a>.</small>
