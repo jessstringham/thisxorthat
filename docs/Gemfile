@@ -1,13 +1,28 @@
 source "https://rubygems.org"
-gem "minima", "~> 2.5"
-# To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 227", group: :jekyll_plugins
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
+gem "minima", "~> 2.5"
+# gemspec
+
+# Whitelisted plugins not included in runtime dependencies.
+gem "jekyll-octicons"
+
+group :test do
+  gem "rubocop", "~> 1.37"
+  gem "rubocop-performance"
+  gem "webmock"
 end
 
-# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-# do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# source "https://rubygems.org"
+# gem "minima", "~> 2.5"
+# # To upgrade, run `bundle update github-pages`.
+# gem "github-pages", "~> 227", group: :jekyll_plugins
+
+# platforms :mingw, :x64_mingw, :mswin, :jruby do
+#   gem "tzinfo", ">= 1", "< 3"
+#   gem "tzinfo-data"
+# end
+
+# # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
+# # do not have a Java counterpart.
+# gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]

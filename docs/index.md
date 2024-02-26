@@ -1,39 +1,34 @@
 ---
-layout: home
+layout: page
 title: this.xor.that
 events:
+ - 20240217_livecode_toplap.md
+ - 20240212_dailys_plotparty.md
+ - 20240101_dailys_genuary.md
+ - 20231218_ptpx_2023.md
  - 20231208_electric_abyss.md
  - 20231201_alpaca.md
-systems:
- - ceramic.md
- - unitcell.md
- - livecode.md
- - kernels.md
- - ash.md
- - dither.md
- - cream-cheese.md
- - oscilloscope.md
- - riso.md
- - substations.md
- - leave.md
- - flow.md
+
 cover: /assets/imgs/cream_cheese/img1-cover.png
 ---
 
 # this.xor.that
 
-I'm **this.xor.that** and I'm a creative coder based in Brooklyn. This site shares the art I've created using code.
+I'm **this.xor.that** and I'm a creative coder based in Brooklyn who does a lot of live coding, pen plotting, and generative art. This site collects some documentation about art I've created using code.
 
 <small>I'm also Jessica Stringham and a machine learning engineer, but that's mostly over <a href="https://jessicastringham.net">here</a></small>.
 
-I'm interested in using live elements and odd interfaces (midi controllers, livecoding, heart rate monitors), harvesting programming bugs to inspire other art, and using human-sized data with machine learning techniques.
+I'm interested in using live elements and interfaces beyond keyboards and screens (midi controllers, pen plotters), harvesting programming bugs to inspire other art, and using human-sized data with machine learning techniques.
 
 My current projects are created using software I write in Rust using [nannou](https://nannou.cc) and [wgpu](https://wgpu.rs).
 
+## systems
 
-## Recent Events and Projects
 
-A full list lives on <a href="/events/">[events]</a>.
+You can find some notes about the systems I use to create work under [systems](/systems/).
+
+
+## recent updates
 
 <div id="events">
 {% for event in page.events %}
@@ -42,37 +37,17 @@ A full list lives on <a href="/events/">[events]</a>.
 <div class="event">
 <div class="event-title">
 <a href="{{ page.url }}">
-<img src="{{ page.cover }}">
 <div class="title">{{ page.title }}
 <span class="subtitle">{{ page.date }}{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</span>
 </div>
-</a>
-</div>
-</div>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-</div>
-
-## systems
-
-This section roughly organizes some work by the systems used to create them.
-
-The systems are always evolving, splitting, and blending into one another. 
-But I wanted to start collecting information about some of the ones I keep coming back to!
-
-{% for system in page.systems %}
-  {% for page in site.pages %}
-    {% if page.name == system %}
-<div class="cover-title">
-<a href="{{ page.url }}">
-<div class="title">{{ page.title }}
-<span class="subtitle">{{ page.subtitle }}</span>
-</div>
 <img src="{{ page.cover }}">
 </a>
 </div>
+</div>
     {% endif %}
   {% endfor %}
 {% endfor %}
+</div>
+
+[See all events](/events/)
 

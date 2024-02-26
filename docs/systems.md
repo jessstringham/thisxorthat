@@ -3,6 +3,7 @@ layout: page
 title: systems
 permalink: /systems/
 systems:
+ - ceramic.md
  - unitcell.md
  - livecode.md
  - kernels.md
@@ -15,6 +16,12 @@ systems:
  - leave.md
  - flow.md
 ---
+
+This pages roughly organizes some work by the systems used to create them.
+
+The systems are always evolving, splitting, and blending into one another. 
+But I wanted to start collecting information about some of the ones I keep coming back to!
+
 
 {% for system in page.systems %}
   {% for page in site.pages %}

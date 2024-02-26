@@ -3,8 +3,13 @@ layout: page
 title: events
 permalink: /events/
 events:
+ - 20240217_livecode_toplap.md
+ - 20240212_dailys_plotparty.md
+ - 20240101_dailys_genuary.md
+ - 20231218_ptpx_2023.md
  - 20231208_electric_abyss.md
  - 20231201_alpaca.md
+ - 20231022_noisy_pixels_zine.md
  - 20230902_livecode_dslgjksdlg.md
  - 20230705_dailys_7weeks.md
  - 20230627_livecode_itpcampshowcase.md
