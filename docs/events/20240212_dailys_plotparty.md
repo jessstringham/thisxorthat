@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: Rust
+tags: paperwork
 title: Plot Party Winter 2024
 date: February 2024
 location: ""

@@ -1,6 +1,6 @@
 ---
 layout: event
-tags: Rust
+tags: generative-art
 title: Genuary 2024
 date: January 2024
 location: ""

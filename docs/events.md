@@ -4,6 +4,7 @@ title: events
 permalink: /events/
 events:
  - 20240217_livecode_toplap.md
+ - 20240216_farrads_4_jupiter.md
  - 20240212_dailys_plotparty.md
  - 20240101_dailys_genuary.md
  - 20231218_ptpx_2023.md

@@ -1,6 +1,6 @@
 ---
 layout: event
-tags: shows
+tags: livecode
 title: livecode.nyc show
 date: 2024-02-17
 location: "Hex House"
