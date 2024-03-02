@@ -7,8 +7,8 @@ subtitle: using robots to draw or cut out paper
 cover: /assets/imgs/paperwork/cover.jpg
 ---
 
-I also the same code I use for livecoding and generative art to output SVGs
-so I can pen plot or vinyl cut or laser cut (when I have access to a laser cutter.)
+
+Sometimes I use generative art to create SVGs that I can pen plot or vinyl cut or laser cut (when I have access to a laser cutter.)
 
 Here's a collection of some things I've created with my pen plotter and vinyl cutter.
 
