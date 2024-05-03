@@ -20,11 +20,13 @@ cover: /assets/imgs/cream_cheese/img1-cover.png
 
 I'm **this.xor.that** and I'm a creative coder based in Brooklyn who does a lot of live coding, pen plotting, and generative art. This site collects some documentation about art I've created using code.
 
+I post pretty frequently on [instagram](https://instagram.com/_thisxorthat) and [mastodon](https://tech.lgbt/@this_xor_that).
+
 <small>I'm also Jessica Stringham and a machine learning engineer, but that's mostly over <a href="https://jessicastringham.net">here</a></small>.
 
 I'm interested in using live elements and interfaces beyond keyboards and screens (midi controllers, pen plotters), harvesting programming bugs to inspire other art, and using human-sized data with machine learning techniques.
 
-My current projects are created using software I write in Rust using [nannou](https://nannou.cc) and [wgpu](https://wgpu.rs).
+My current projects are created using software I write in Rust using [nannou](https://nannou.cc) and [wgpu](https://wgpu.rs). 
 
 ## recent updates
 
