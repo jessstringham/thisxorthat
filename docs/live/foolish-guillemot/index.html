@@ -29,7 +29,7 @@
 #  - x, y:     unitcell coordinates scaled between 0 and 1. 
 #              useful when combined with scale, as in s(x, 0.3, 0.5)
 #  - x_i, y_i: unitcell coordinates as integers (useful for mod)
-#  - seed_i:   a "random" seed for the cell. can be useful for rn(seed_i, 3)
+#  - seed:   a "random" seed for the cell. can be useful for rn(seed, 3)
 #
 # = Global =
 # == Time ==
@@ -41,11 +41,20 @@
 #  - mx, my:  mouse position
 #  - cx, cy:  last click position
 #  - w, h:    drawing window dimensions
+#  - click:   is currently clicking
+#
+# == Functions ==
+# this includes all of the functions from https://github.com/ISibboI/evalexpr?tab=readme-ov-file#builtin-functions
+# and some bonus ones
+#  - clamp(x, 0, 1)
 #
 # Some gotchas:
 # - you're either writing in YAML or in evalexpr. This leads to a few (non-ideal) things:
 #   - YAML uses # for comments and evalexpr uses //
 #   - a mistake at the YAML will give you a nice message, while in evalexpr it'll silently fail
+#
+#
+# This is a rough draft of a demo, so might disappear or change at any time!
 </pre>
 </div>
 <footer>
