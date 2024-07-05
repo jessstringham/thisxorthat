@@ -63,3 +63,7 @@ body {
 #err_msg {
     padding: 2px;
 }
+
+p {
+    font-family: monospace;
+}
