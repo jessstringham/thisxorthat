@@ -3,6 +3,14 @@ layout: page
 title: events
 permalink: /events/
 events:
+ - 20240809_murrelet.md
+ - 20240803_livecode_versus.md
+ - 20240621_livecode_itpcampshow.md
+ - 20240610_itp_color_workshop.md
+ - 20240505_livecode_harvestworks.md
+ - 20240504_color_workshop.md
+ - 20240428_caffeine_underground.md
+ - 20240403_long_distance.md
  - 20240217_livecode_toplap.md
  - 20240216_farrads_4_jupiter.md
  - 20240212_dailys_plotparty.md
