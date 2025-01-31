@@ -4,7 +4,7 @@ date: Jan 2025
 title: Wavelengths to RGB, Jan 31, 2025
 ---
 
-# Wavelengths to RGB @ ITP Camp, Jan 31, 2025
+# Wavelengths to RGB @ Festival of Learning, Jan 31, 2025
 
 
 [Presentation](https://docs.google.com/presentation/d/1x4t32vMtFK82F9Budj8sI-cL0dvoJdlc1cvvcCaqFvM/edit?usp=sharing)
