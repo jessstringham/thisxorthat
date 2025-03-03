@@ -436,8 +436,7 @@ div:has(> div > .list-add:hover) {
 }
 
 .back-button:hover {
-  background-color: #e3c5ff;
-  box-shadow: 0 0 30px #b7b1bd;
+  box-shadow: 0 0 10px #1affaf;
 }
 
 .back-button:active {
