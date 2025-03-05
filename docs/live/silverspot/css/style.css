@@ -373,7 +373,9 @@ div:has(> div > .list-add:hover) {
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
-  align-items: flex-start;
+  justify-content: center;
+  /* align-items: center; */
+
   width: 100%;
 }
 
@@ -418,6 +420,7 @@ div:has(> div > .list-add:hover) {
   display: inline-block;
   width: 180px;
   height: 150px;
+  box-sizing: border-box;
   /* background-color: #000; */
 
   position: relative;
@@ -443,6 +446,11 @@ div:has(> div > .list-add:hover) {
 }
 
 #exploreContainer {
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   height: 100vh;
   overflow-y: auto;
 }
@@ -515,4 +523,12 @@ div:has(> div > .list-add:hover) {
   background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
   z-index: -1;
+}
+
+
+
+@media (max-width: 600px) {
+  .cube-row-doc {
+    justify-content: flex-start;
+  }
 }
