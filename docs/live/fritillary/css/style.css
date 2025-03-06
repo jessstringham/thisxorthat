@@ -525,6 +525,22 @@ div:has(> div > .list-add:hover) {
   z-index: -1;
 }
 
+.animate-box {
+  width: 600px;
+  height: 600px;
+  opacity: 0;
+  /* transition: opacity 0.01s ease-in-out; */
+}
+
+.animate-box.visible {
+  opacity: 1;
+}
+
+.animate-box > svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 @media (max-width: 600px) {
@@ -532,3 +548,5 @@ div:has(> div > .list-add:hover) {
     justify-content: flex-start;
   }
 }
+
+
