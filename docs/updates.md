@@ -3,7 +3,7 @@ layout: page
 title: events
 permalink: /updates/
 events:
- - 20250616_blog.md
+ - 20250615_blog.md
 ---
 
 <div id="little-events">
