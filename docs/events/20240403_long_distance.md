@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: pen plotting
+kind: pen plots
 title: Long Distance Drawing
 date: April to May 2024
 location: "Maison de l'Architecture in Amiens, France"

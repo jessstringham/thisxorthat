@@ -1,7 +1,8 @@
 ---
 layout: event
 tags: livecode
-title: livecode.nyc show
+kind: live visuals
+title: livecode.nyc TOPLAP 20th anniversary
 date: 2024-02-17
 location: "Hex House"
 cover: /assets/imgs/20240217_livecode_toplap/cover.jpg

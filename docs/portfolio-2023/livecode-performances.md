@@ -1,7 +1,8 @@
 ---
 layout: portfolio
+kind: live visuals
 title: this.xor.that Livecode Performances
-subtitle: live performances with code 
+subtitle: live performances with code
 topics: software, livecode
 date: ongoing
 cover: /assets/imgs/20230902_livecode_dslgjksdlg/cover.png

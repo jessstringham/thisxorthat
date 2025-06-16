@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: livecode
+kind: workshop
 title: Wavelengths to RGB Workshop
 date: 2024-05-04
 location: "Harvestworks"

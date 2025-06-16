@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: livecode
+kind: live visuals
 title: Versus
 date: 2024-08-03
 location: "Culture Lab LIC"

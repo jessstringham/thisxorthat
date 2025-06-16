@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: livecode
+kind: live visuals
 title: Evening visuals
 date: April 28, 2024
 location: "Caffeine Underground"

@@ -3,7 +3,25 @@ layout: page
 title: events
 permalink: /events/
 events:
- - 20240809_murrelet.md
+ - 20250606_show_and_tell_berlin_meetup.md
+ - 20250529_paper_live_coding_structured_data.md
+ - 20250527_livecode_resonant_dialogues.md
+ - 20250524_livecode_errorcamp.md
+ - 20250521_open_projector_algorhythms_london.md
+ - 20250510_porchfest_somerville.md
+ - 20250506_mit_media_lab_research_talk.md
+ - 20250427_mit_art_showcase.md
+ - 20250418_livecode_mit_museum.md
+ - 20250329_livecode_spring_resonances.md
+ - 20250322_livecode_hudson_valley_books.md
+ - 20250131_fol_color_workshop.md
+ - 20250101_dailys_genuary.md
+ - 20241217_how_to_make_almost_anything_open_house.md
+ - 20241210_hybrid_livecoding_interfaces.md
+ - 20241101_livecode_boston_art_review_halloween.md
+ - 20241017_invited_berklee_livecode.md
+ - 20241003_dissolve_music_festival.md
+ - 20240915_hackathon_boston_tech_poetics.md
  - 20240803_livecode_versus.md
  - 20240621_livecode_itpcampshow.md
  - 20240610_itp_color_workshop.md
@@ -29,17 +47,19 @@ events:
  - 20220705_dailys_7weeks.md
 ---
 
-<div id="events">
+<div id="little-events">
 {% for event in page.events %}
   {% for page in site.pages %}
     {% if page.name == event %}
-<div class="event">
-<div class="event-title">
+<div class="little-event">
+<div class="little-event-title">
 <a href="{{ page.url }}">
-<div class="title">{{ page.title }}
-<span class="subtitle">{{ page.date }}{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</span>
+<div class="title">{{ page.date }} | {{ page.title }}
+{% if page.kind %}
+  <span class="little-event-kind">({{ page.kind }})</span>
+{% endif %}
+<span class="little-event-subtitle">{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</span>
 </div>
-<img src="{{ page.cover }}">
 </a>
 </div>
 </div>

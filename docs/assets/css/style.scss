@@ -191,6 +191,14 @@ small {
 }
 
 
+
+
+.little-event {
+  display: block;
+  // background-color: #000;
+}
+
+
 #events {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -200,6 +208,10 @@ small {
 .event {
   display: block;
   background-color: #000;
+}
+
+.event-subtitle {
+  color: #666;
 }
 
 .event-title {
@@ -212,16 +224,41 @@ small {
   object-fit: cover;
 }
 
+.little-event-title img {
+  // width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .event-title .title {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   text-align: center;
   padding-top: 8px;
   padding-bottom: 8px;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.little-event-title .title {
+  // background-color: rgba(0, 0, 0, 0.8);
+  color: black;
+  // text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.event-kind {
+  font-size: 13px;
+  color: gray;
+  position: relative;
 }
 
 .event-title a {
+  text-decoration: none;
+}
+
+.little-event-title a {
   text-decoration: none;
 }
 

@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: livecode
+kind: live visuals
 title: Body Keeps Score
 date: 2024-06-10
 location: "ITP Camp"

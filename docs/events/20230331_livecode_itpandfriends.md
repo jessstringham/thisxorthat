@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: Rust, livecode
+kind: live visuals
 title: ITP and Friends
 date: 2023-03-31
 location: Wonderville

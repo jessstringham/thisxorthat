@@ -1,6 +1,7 @@
 ---
 layout: event
 tags: Rust, livecode
+kind: live visuals
 title: livecode.nyc – Regen Circuit
 date: 2023-05-04
 location: HarvestWorks
