@@ -3,6 +3,7 @@ layout: page
 title: events
 permalink: /events/
 events:
+ - 20250621_livecodenyc.md
  - 20250606_show_and_tell_berlin_meetup.md
  - 20250529_paper_live_coding_structured_data.md
  - 20250527_livecode_resonant_dialogues.md
@@ -46,6 +47,30 @@ events:
  - 20230101_dailys_genuary.md
  - 20220705_dailys_7weeks.md
 ---
+
+
+<div id="little-events">
+{% for event in page.events %}
+  {% for page in site.pages %}
+    {% if page.name == event %}
+<div class="little-event">
+<div class="little-event-title">
+<a href="{{ page.url }}">
+<div class="title">{{ page.date }} | {{ page.title }}
+{% if page.kind %}
+  <span class="little-event-kind">({{ page.kind }})</span>
+{% endif %}
+<span class="little-event-subtitle">{%- if page.location != "" %} – {{ page.location }}{%- endif -%}</span>
+</div>
+</a>
+</div>
+</div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
+
+Past Events
 
 <div id="little-events">
 {% for event in page.events %}

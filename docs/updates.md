@@ -1,8 +1,9 @@
 ---
 layout: page
-title: events
+title: Updates
 permalink: /updates/
 events:
+ - 20250622_blog.md
  - 20250615_blog.md
 ---
 
