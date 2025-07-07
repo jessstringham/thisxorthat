@@ -4,8 +4,7 @@ tags: festival
 kind: live visuals
 title: Dissolve Music Festival
 subtitle: Visuals Performance
-start_date: 2024-10-03
-end_date: 2024-10-04
+date: 2024-10-03
 location: "MIT, Cambridge, MA"
 cover: ""
 ---

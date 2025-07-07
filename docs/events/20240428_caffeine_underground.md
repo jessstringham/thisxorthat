@@ -3,7 +3,7 @@ layout: event
 tags: livecode
 kind: live visuals
 title: Evening visuals
-date: April 28, 2024
+date: 2024-04-28
 location: "Caffeine Underground"
 cover: /assets/imgs/20240428_caffeine_underground/cover.jpg
 ---
