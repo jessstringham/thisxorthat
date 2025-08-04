@@ -3,6 +3,8 @@ layout: page
 title: events
 permalink: /events/
 events:
+  - 20250803_fels.md
+  - 20250731_born_of_the_egg_album_art.md
   - 20250621_livecodenyc.md
   - 20250606_show_and_tell_berlin_meetup.md
   - 20250529_paper_live_coding_structured_data.md
