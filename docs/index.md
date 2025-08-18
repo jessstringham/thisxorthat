@@ -1,6 +1,13 @@
 ---
-layout: page
+layout: home
 title: this.xor.that
+
+videos:
+  - kaleido.mp4
+  - leaf.mp4
+  - pattern.mp4
+  - kaleido2.mp4
+
 approaches:
  - framework-livecode.md
  - livecode.md

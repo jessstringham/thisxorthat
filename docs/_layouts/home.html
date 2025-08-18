@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="this.xor.that: {{ page.title }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" href="/assets/imgs/favicon.ico" />
+  </head>
+
+  <style>
+    .hero {
+      position: relative;
+      width: 100vw;
+      height: 280px;
+      overflow: hidden;
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw);
+      margin-top: 0px;
+      background: #000; /* added to avoid white flash during fades */
+    }
+    .hero video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.8s ease;
+      background: #000;
+    }
+    .hero video.show {
+      opacity: 1;
+    }
+    .hero .fallback {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      z-index: 0;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero video {
+        display: none;
+      }
+    }
+  </style>
+
+  <body>
+    <div>
+      <nav>
+        <a href="/">this.xor.that</a> →
+        <a href="/systems/">[systems]</a>
+        <a href="/updates/">[updates]</a>
+        <a href="/events/">[events]</a>
+        <a href="/about/">[about]</a>
+      </nav>
+    </div>
+
+    <div class="page">
+      <div class="hero">
+        <video id="hero0" muted playsinline preload="auto"></video>
+        <video id="hero1" muted playsinline preload="auto"></video>
+        <div class="fallback"></div>
+      </div>
+
+      <script>
+        // this script is from chatgpt
+        const clips = [ {% for v in page.videos %}"{% if v contains '/' %}{{ v }}{% else %}{{ site.baseurl }}/assets/videos/{{ v }}{% endif %}"{% unless forloop.last %}, {% endunless %}{% endfor %} ];
+        const vids = [document.getElementById('hero0'), document.getElementById('hero1')];
+        const fb = document.querySelector('.hero .fallback');
+        vids.forEach(v=>v.muted=true);
+        if(!clips.length){ fb.style.display='block'; }
+        let current=0, next=1, idx=0, fading=false;
+
+        function load(v, src){ return new Promise(res=>{ v.onloadeddata=()=>{ v.onloadeddata=null; res(); }; v.src=src; v.load(); }); }
+
+        async function init(){
+          if(!clips.length) return;
+          fb.style.display='block';
+          await load(vids[current], clips[idx]);
+          vids[current].play().catch(()=>{});
+          vids[current].classList.add('show');
+          fb.style.display='none';
+          idx=(idx+1)%clips.length;
+          if(clips.length>1) load(vids[next], clips[idx]); // preload silently
+          vids[current].addEventListener('ended', crossfade);
+        }
+
+        async function crossfade(){
+          if(fading || !clips.length) return; fading=true;
+          const from = vids[current];
+            const to = vids[next];
+          // ensure next clip loaded
+          if(!to.src){ await load(to, clips[idx]); }
+          if(to.readyState < 2){ await load(to, to.src || clips[idx]); }
+          to.currentTime=0;
+          to.play().catch(()=>{});
+          to.classList.add('show');
+          from.classList.remove('show');
+          setTimeout(async ()=>{
+            from.pause();
+            from.removeEventListener('ended', crossfade);
+            // advance playlist
+            idx=(idx+1)%clips.length;
+            const old = from; // now hidden
+            current = vids.indexOf(to);
+            next = vids.indexOf(old);
+            // preload next source into hidden video
+            await load(vids[next], clips[idx]);
+            vids[current].addEventListener('ended', crossfade);
+            fading=false;
+          }, 820); // slightly > CSS
+        }
+
+        const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+        if(prefersReduced.matches){ vids[1].remove(); vids[0].controls=true; }
+        init();
+      </script>
+
+      <section>{{ content }}</section>
+
+      <footer>&copy; 2025 Jessica Stringham</footer>
+    </div>
+  </body>
+</html>
