@@ -31,7 +31,7 @@ Here's a music video using time-based variables that I made for a [video room](/
 I combine this code with the other things I've built on top of nannou and wgpu, like [planar l-systems](../ash/) or [unitcells](../unitcell/), to make very configurable generative art or livecode project.
 
 
-## Recent Livecode Performances
+## Some Livecode Performances
 
 <div id="events">
 {% for event in page.events %}

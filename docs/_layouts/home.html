@@ -12,12 +12,13 @@
 
   <style>
     .hero {
+      margin: 0 auto;
       position: relative;
-      width: 100vw;
+      /* width: 100vw; */
       height: 280px;
       overflow: hidden;
-      margin-left: calc(50% - 50vw);
-      margin-right: calc(50% - 50vw);
+      /* margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw); */
       margin-top: 0px;
       background: #000; /* added to avoid white flash during fades */
     }
@@ -51,17 +52,17 @@
   </style>
 
   <body>
-    <div>
-      <nav>
-        <a href="/">this.xor.that</a> →
-        <a href="/systems/">[systems]</a>
-        <a href="/updates/">[updates]</a>
-        <a href="/events/">[events]</a>
-        <a href="/about/">[about]</a>
-      </nav>
-    </div>
-
     <div class="page">
+      <div>
+        <nav>
+          <a href="/">this.xor.that</a> →
+          <a href="/systems/">[systems]</a>
+          <a href="/updates/">[updates]</a>
+          <a href="/events/">[events]</a>
+          <a href="/about/">[about]</a>
+        </nav>
+      </div>
+
       <div class="hero">
         <video id="hero0" muted playsinline preload="auto"></video>
         <video id="hero1" muted playsinline preload="auto"></video>
