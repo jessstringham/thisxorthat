@@ -3,19 +3,20 @@ layout: page
 title: Updates
 permalink: /updates/
 events:
- - 20250907_blog.md
- - 20250831_blog.md
- - 20250824_blog.md
- - 20250817_blog.md
- - 20250810_blog.md
- - 20250803_blog.md
- - 20250727_blog.md
- - 20250720_blog.md
- - 20250713_blog.md
- - 20250706_blog.md
- - 20250629_blog.md
- - 20250622_blog.md
- - 20250615_blog.md
+  - 20250914_blog.md
+  - 20250907_blog.md
+  - 20250831_blog.md
+  - 20250824_blog.md
+  - 20250817_blog.md
+  - 20250810_blog.md
+  - 20250803_blog.md
+  - 20250727_blog.md
+  - 20250720_blog.md
+  - 20250713_blog.md
+  - 20250706_blog.md
+  - 20250629_blog.md
+  - 20250622_blog.md
+  - 20250615_blog.md
 ---
 
 <div id="little-events">
