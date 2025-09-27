@@ -3,6 +3,7 @@ layout: page
 title: Updates
 permalink: /updates/
 events:
+  - 20250921_blog.md
   - 20250914_blog.md
   - 20250907_blog.md
   - 20250831_blog.md

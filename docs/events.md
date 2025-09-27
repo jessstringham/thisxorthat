@@ -3,6 +3,7 @@ layout: page
 title: events
 permalink: /events/
 events:
+  - 20250920_rhythms_and_renewal.md
   - 20250803_fels.md
   - 20250731_born_of_the_egg_album_art.md
   - 20250621_livecodenyc.md
