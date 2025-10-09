@@ -18,6 +18,7 @@ events:
   - 20250418_livecode_mit_museum.md
   - 20250329_livecode_spring_resonances.md
   - 20250322_livecode_hudson_valley_books.md
+  - 20250201_future_type.md
   - 20250131_fol_color_workshop.md
   - 20250101_dailys_genuary.md
   - 20241217_how_to_make_almost_anything_open_house.md
