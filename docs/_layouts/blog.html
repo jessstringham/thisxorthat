@@ -1,8 +1,49 @@
 ---
 layout: default
 ---
+
+
+
 <div><h1>{{ page.title }}</h1></div>
 <small>{{ page.date }}</small>
 <section>
 {{ content }}
 </section>
+
+
+{% assign posts = site.pages
+  | where_exp: "p", "p.path contains 'blog/'"
+  | where_exp: "p", "p.layout == 'blog'"
+  | sort: "date"
+%}
+
+{% assign current_url = page.url %}
+{% assign prev_post = nil %}
+{% assign next_post = nil %}
+
+{% for p in posts %}
+  {% if p.url == current_url %}
+    {% assign prev_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
+    {% if prev_index >= 0 %}
+      {% assign prev_post = posts[prev_index] %}
+    {% endif %}
+    {% if next_index < posts.size %}
+      {% assign next_post = posts[next_index] %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<nav class="blog-prev-next">
+  <span class="prev">
+    {% if prev_post %}
+      <a href="{{ prev_post.url }}">← Prev: {{ prev_post.title }}</a>
+    {% endif %}
+  </span>
+
+<span class="next" style="float: right;">
+    {% if next_post %}
+        <a href="{{ next_post.url }}">Next: {{ next_post.title }} →</a>
+    {% endif %}
+</span>
+</nav>
