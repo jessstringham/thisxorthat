@@ -7,7 +7,7 @@ permalink: /updates/
   {% assign posts = site.pages
     | where_exp: "p", "p.path contains 'blog/'"
     | where_exp: "p", "p.layout == 'blog'"
-    | sort: "date"
+    | sort: "path"
     | reverse
   %}
 
