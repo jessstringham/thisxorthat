@@ -2,7 +2,7 @@
 layout: event
 tags: hackathon
 title: StageHack (Boston Tech Poetics)
-date: 2025-09-15
+date: 2024-09-15
 location: "Boston, MA"
 cover: ""
 ---
