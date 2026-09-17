@@ -1,6 +1,6 @@
 ---
 layout: event
-kind: ""
+kind: "talk"
 tags: ""
 title: "Google Arts and Culture"
 date: 2026-07-08

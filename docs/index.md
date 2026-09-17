@@ -17,37 +17,35 @@ approaches:
 #  - 20240610_itp_color_workshop.md
 #  - 20240505_livecode_harvestworks.md
 #  - 20240403_long_distance.md
-
-cover: /assets/imgs/cream_cheese/img1-cover.png
 ---
 
 
-I'm **this.xor.that**, a creative coder who does a lot of live coding, pen plotting, and generative art.  This site collects some documentation about things I've created using code.
+I'm **this.xor.that**, a computational artist and educator.
 
-I post pretty frequently on [instagram](https://instagram.com/_thisxorthat) and [mastodon](https://social.toplap.org/@this_xor_that).
+Most recently, I was a graduate researcher in the [Future Sketches](https://www.media.mit.edu/groups/future-sketches/overview/) group at the [MIT Media Lab](https://www.media.mit.edu/).
 
-I'm currently a graduate researcher in the [Future Sketches](https://www.media.mit.edu/groups/future-sketches/overview/) group at the [MIT Media Lab](https://www.media.mit.edu/). Much of the work here is created using a custom Rust package called [Murrelet](https://github.com/jessstringham/murrelet).
+Much of the work here is created using a custom Rust package called [Murrelet](https://github.com/jessstringham/murrelet). You can also find me on [instagram](https://instagram.com/_thisxorthat) and [mastodon](https://social.toplap.org/@this_xor_that).
 
 
 <small>I'm also Jessica Stringham and a machine learning engineer, but that's mostly over <a href="https://jessicastringham.net">here</a></small>.
 
 
-## approaches
+## recent activity
 
-{% for system in page.approaches %}
-  {% for page in site.pages %}
-    {% if page.name == system %}
-<div class="cover-title">
-<a href="{{ page.url }}">
-<div class="title">{{ page.title }}
-<span class="subtitle">{{ page.subtitle }}</span>
+{% assign events = site.pages
+  | where_exp: "p", "p.path contains 'events/'"
+  | where_exp: "p", "p.date"
+  | sort: "path"
+  | reverse
+%}
+
+{% for event in events limit: 6 %}
+<div class="activity-title">
+<a href="{{ event.url }}">
+<div class="title">{{ event.title }}
+<span class="subtitle">{{ event.date | date: "%Y-%m-%d" }}{% if event.location != "" %} – {{ event.location }}{% endif %}</span>
 </div>
-<img src="{{ page.cover }}">
+{% if event.cover != "" %}<img src="{{ event.cover }}">{% endif %}
 </a>
 </div>
-    {% endif %}
-  {% endfor %}
 {% endfor %}
-
-
-You can also find some notes about the systems I use to create work under [systems](/systems/).

@@ -8,6 +8,6 @@ location: "Wonderville"
 cover: ""
 ---
 
-I played visuals with rwhaling!
+I performed live visuals with rwhaling!
 
 

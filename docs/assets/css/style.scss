@@ -31,11 +31,13 @@ footer {
 
 .img_series {
   display: flex;
-  justify-content: space-between;
+  gap: 8px;
 }
 
 .img_series_img {
-   width: 95%;
+   flex: 1;
+   width: 0;
+   object-fit: cover;
 }
 
 .medimage {
@@ -82,6 +84,36 @@ nav a:visited {
 nav a:hover {
   background-color: #333;
   color: #FFF;
+}
+
+.activity-title {
+  position: relative;
+  margin-top: 16px;
+}
+
+.activity-title img {
+  // width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.activity-title .title {
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+.activity-title a {
+  text-decoration: none;
+}
+
+.activity-title .subtitle {
+  font-size: 12px;
+  display: block;
+  color: #999;
 }
 
 
@@ -273,6 +305,28 @@ small {
 
 pre {
     padding: 5px;
+}
+
+.section-tags {
+  margin: -8px 0 16px 0;
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 0.04em;
+}
+
+.section-tag {
+  color: #888;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.section-tag::before {
+  content: "#";
+  color: #bbb;
+}
+
+.section-tag:hover {
+  color: #000;
 }
 
 span.dl {

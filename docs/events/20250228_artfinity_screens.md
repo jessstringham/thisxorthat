@@ -7,4 +7,4 @@ location: "Kendall/MIT Open Space"
 cover: ""
 ---
 
-A recording on kaleido was displayed on a public screen in the Kendell/MIT Open Space. [link](https://artfinity.mit.edu/event/art-on-the-screen)
+A recording of kaleido was displayed on a public screen in the Kendell/MIT Open Space. [link](https://artfinity.mit.edu/event/art-on-the-screen)
