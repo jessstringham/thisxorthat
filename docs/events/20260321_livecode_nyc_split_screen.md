@@ -4,7 +4,7 @@ kind: live visuals
 tags: Rust, livecode
 title: "Livecode.NYC SPLIT/SCREEN"
 date: 2026-03-21
-location: "Wonderville"
+location: "Wonderville, NYC"
 cover: ""
 ---
 

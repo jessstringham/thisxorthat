@@ -43,7 +43,7 @@ Much of the work here is created using a custom Rust package called [Murrelet](h
 <div class="activity-title">
 <a href="{{ event.url }}">
 <div class="title">{{ event.title }}
-<span class="subtitle">{{ event.date | date: "%Y-%m-%d" }}{% if event.location != "" %} – {{ event.location }}{% endif %}</span>
+<span class="subtitle">{{ event.date | date: "%Y-%m-%d" }}{% if event.kind != "" %} – {{ event.kind }}{% endif %}{% if event.location != "" %} – {{ event.location }}{% endif %}</span>
 </div>
 {% if event.cover != "" %}<img src="{{ event.cover }}">{% endif %}
 </a>

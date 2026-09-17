@@ -4,7 +4,7 @@ kind: "livecode visuals"
 tags: "livecode"
 title: "Livecode Boston at Remnant"
 date: 2026-03-01
-location: "Somerville, MA"
+location: "Somerville, Massachusetts"
 cover: ""
 ---
 
