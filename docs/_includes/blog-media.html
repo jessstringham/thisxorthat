@@ -1,0 +1,49 @@
+{% assign raw_src = include.src | default: "" %}
+{% assign first_char = raw_src | slice: 0, 1 %}
+{% assign folder = include.folder | default: "imgs" %}
+{% assign media_root = "/assets/imgs/" | append: folder | append: "/" %}
+{% if first_char == "/" or raw_src contains "://" %}
+  {% assign media_src = raw_src %}
+{% else %}
+  {% assign media_src = media_root | append: raw_src %}
+{% endif %}
+
+{% assign file_name = media_src | split: "/" | last %}
+{% assign extension = file_name | split: "." | last | downcase %}
+{% assign media_type = "image" %}
+{% if extension == "mp4" or extension == "webm" or extension == "mov" %}
+  {% assign media_type = "video" %}
+{% endif %}
+
+{% assign css_class = include.class | default: "" %}
+{% if css_class == "" %}
+  {% if include.layout == "float" %}
+    {% assign css_class = "floatmedimage" %}
+  {% elsif include.layout == "float-no-border" %}
+    {% assign css_class = "floatmedimage-no-border" %}
+  {% elsif include.layout == "fullwidth" %}
+    {% assign css_class = "fullwidth" %}
+  {% elsif include.layout == "fullwidth-no-border" %}
+    {% assign css_class = "fullwidth-no-border" %}
+  {% endif %}
+{% endif %}
+
+{% assign alt_text = include.alt | default: "" %}
+{% assign width_style = "" %}
+{% if include.width %}
+  {% assign width_style = "width: " | append: include.width | append: ";" %}
+{% endif %}
+{% assign height_style = "" %}
+{% if include.height %}
+  {% assign height_style = "height: " | append: include.height | append: ";" %}
+{% endif %}
+{% assign inline_style = width_style | append: height_style %}
+
+{% if media_type == "video" %}
+<video {% if css_class != "" %}class="{{ css_class }}"{% endif %} {% if inline_style != "" %}style="{{ inline_style }}"{% endif %} controls muted playsinline>
+  <source src="{{ media_src }}">
+  {{ alt_text }}
+</video>
+{% else %}
+<img {% if css_class != "" %}class="{{ css_class }}"{% endif %} src="{{ media_src }}" alt="{{ alt_text }}"{% if inline_style != "" %} style="{{ inline_style }}"{% endif %}>
+{% endif %}
