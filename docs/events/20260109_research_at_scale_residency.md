@@ -1,6 +1,6 @@
 ---
 layout: event
-kind: ""
+kind: "residency"
 tags: ""
 title: "Research at Scale Residency"
 date: 2026-01-09
