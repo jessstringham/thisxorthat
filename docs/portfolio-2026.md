@@ -21,7 +21,7 @@ entries:
 <div class="portfolio-title">{{ page.title }}
 <span class="portfolio-subtitle">{{ page.subtitle }}</span>
 </div>
-<img src="{{ page.cover }}">
+<img src="{{ page.cover }}" style="height: 200px; width: 100%; object-fit: cover;">
 </a>
 </div>
     {% endif %}

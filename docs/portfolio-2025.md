@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: Jessica Stringham's portfolio 202
+title: Jessica Stringham's portfolio 2025
 permalink: /portfolio-2025/
 entries:
   - bat.md
